@@ -14,9 +14,6 @@
 12- git push
 */
 
-// Debemos de arreglar un poco el código, por ejemplo tenemos declarado el puerto
-// y seguramente en el hosting que elijamos no esté ese puerto 8080 disponible
-
 const express = require('express')
 const hbs = require('hbs')
 require('dotenv').config()
